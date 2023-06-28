@@ -3,12 +3,10 @@
 .sidebar {
   position: fixed;
   top: 50%;
-  left: 2rem;
+  left: 0.5rem;
   transform: translateY(-50%);
   z-index: 9999;
 }
-
-
 
 .social__item {
   margin-bottom: 10px;

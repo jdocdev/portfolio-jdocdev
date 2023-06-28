@@ -7,6 +7,7 @@ document.querySelectorAll("nav ul li a").forEach((anchor) => {
     });
   });
 });
+
 // Desplazamiento suave entre secciones desde botones con clase .button--nav
 const buttons = document.querySelectorAll(".button--nav");
 buttons.forEach((button) => {
@@ -17,8 +18,6 @@ buttons.forEach((button) => {
     });
   });
 });
-
-
 
 // Limpiar el formulario luego de ser enviado
 window.onload = function() {

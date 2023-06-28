@@ -1,0 +1,13 @@
+@import url(style.css);
+
+.footer {
+    height: 5vh;
+    background-color: var(--maroon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: var(--white);
+}

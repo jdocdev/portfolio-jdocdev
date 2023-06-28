@@ -50,8 +50,29 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
+  width: 90%;
+  max-width: 1400px;
 }
 
-.imposter {
-  max-width: 1300px;
+@media screen and (max-width: 1366px) {
+
+  .title {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+  
+  .subtitle {    
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  
+  .text {    
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main {
+    width: 80%;
+  }
 }

@@ -37,7 +37,7 @@
 .project__left {
   height: 300px;
   width: 500px;
-  border-radius: 15px;
+  border-radius: 5px;
   border: solid 3px var(--maroon-light);
   background-image: url(https://dummyimage.com/600x400/dedede/999999.jpg);
   background-size: cover;
@@ -45,23 +45,23 @@
 }
 
 .project--firefox {
-  background-image: url(/src/img/firefox--monitor.jpg);
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/firefox--monitor.jpg);
 }
 
 .project--bookhouse {
-  background-image: url(/src/img/bookhouse.jpg);
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/bookhouse.jpg);
 }
 
 .project--text-encoder {
-  background-image: url(/src/img/text--encoder.jpg);
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/text--encoder.jpg);
 }
 
-.project--tloz-shop {
-  background-image: url(/src/img/tloz--shop.jpg);
+.project--panaderia-bem {
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/panaderia--bem.jpg);
 }
 
 .project--christmas-store {
-  background-image: url(/src/img/christmas--store.jpg);
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/christmas--store.jpg);
 }
 
 .project__right {
@@ -74,4 +74,44 @@
 
 .project__right > * {
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .project__left {
+    height: 250px;
+    width: 400px;
+  }
+
+  .project__right > * {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+ 
+  .project {
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+  }
+
+  .project > * {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .project__left {
+    height: 50vw;
+    width: 80vw;
+  }
+
+
+  .project__right {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .project__right > * {
+    margin-bottom: 0.5rem;
+  }
 }

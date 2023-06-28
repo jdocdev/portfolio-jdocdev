@@ -40,3 +40,17 @@
 .navbar__link.link--active::after {
   width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+ .navbar__menu {
+  justify-content: center;
+ }
+
+  .navbar__logo-text {
+    display: none;
+  }
+
+  .navbar__item:nth-child(1) {
+    margin-left: 0;
+  }
+}
