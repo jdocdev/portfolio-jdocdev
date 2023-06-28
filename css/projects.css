@@ -1,0 +1,77 @@
+@import url(style.css);
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.projects__intro {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.projects__content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+}
+
+.project > * {
+  margin: 1rem;
+}
+
+.project__left {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+  border: solid 3px var(--maroon-light);
+  background-image: url(https://dummyimage.com/600x400/dedede/999999.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.project--firefox {
+  background-image: url(/src/img/firefox--monitor.jpg);
+}
+
+.project--bookhouse {
+  background-image: url(/src/img/bookhouse.jpg);
+}
+
+.project--text-encoder {
+  background-image: url(/src/img/text--encoder.jpg);
+}
+
+.project--tloz-shop {
+  background-image: url(/src/img/tloz--shop.jpg);
+}
+
+.project--christmas-store {
+  background-image: url(/src/img/christmas--store.jpg);
+}
+
+.project__right {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.project__right > * {
+  margin-bottom: 1rem;
+}

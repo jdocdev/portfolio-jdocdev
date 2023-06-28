@@ -1,0 +1,39 @@
+@import url(style.css);
+
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact>* {
+    margin: 1rem;
+}
+
+.contact__intro {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__form {
+    margin-top: 4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form>* {
+    margin: 0.5rem;
+}
+
+.form__button {
+    text-align: center;
+}

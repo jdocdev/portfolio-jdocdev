@@ -1,0 +1,42 @@
+@import url(style.css);
+
+.navbar__menu {
+  background-color: var(--white);
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__items,
+.navbar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__item {
+  margin-left: 1rem;
+}
+
+.navbar__link {
+  position: relative;
+}
+
+.navbar__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.navbar__link:hover::after,
+.navbar__link.link--active::after {
+  width: 100%;
+}
