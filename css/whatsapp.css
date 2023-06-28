@@ -2,8 +2,8 @@
 
 .whatsapp {
   position: fixed;
-  top: 95%;
-  right: 2rem;
+  top: 97%;
+  right: 1rem;
   transform: translateY(-50%);
   z-index: 9999;
 }
