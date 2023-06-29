@@ -118,6 +118,7 @@
   .experience__item {
     max-width: 100%;
     text-align: start;
+    margin-top: 2rem;
   }
 
   .experience__item > * {

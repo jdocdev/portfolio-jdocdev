@@ -8,8 +8,8 @@
   align-items: center;
 }
 
-.contact>* {
-    margin: 1rem;
+.contact > * {
+  margin: 1rem;
 }
 
 .contact__intro {
@@ -21,18 +21,28 @@
 }
 
 .contact__form {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.form>* {
-    margin: 0.5rem;
+.form > * {
+  margin: 0.5rem;
+}
+
+.form input {
+  width: 500px;
 }
 
 .form__button {
-    text-align: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .form input {
+    width: 350px;
+  }
 }

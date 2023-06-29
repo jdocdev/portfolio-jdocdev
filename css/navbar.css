@@ -42,9 +42,9 @@
 }
 
 @media screen and (max-width: 500px) {
- .navbar__menu {
-  justify-content: center;
- }
+  .navbar__menu {
+    justify-content: center;
+  }
 
   .navbar__logo-text {
     display: none;
