@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- General Styles -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- atoms -->
+    <link rel="stylesheet" href="css/atoms/button.css" />
+    <link rel="stylesheet" href="css/atoms/image.css" />
     <!-- My Styles -->
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
@@ -24,11 +27,8 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/whatsapp.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- atoms -->
-    <link rel="stylesheet" href="css/atoms/button.css" />
-    <link rel="stylesheet" href="css/atoms/image.css" />
+    
   </head>
   <body>
 
@@ -36,20 +36,20 @@
 
         <nav class="navbar__menu">
           <div class="navbar__logo">
-            <h3 class="navbar__logo-text subtitle">juandavid_dev</h3>
+            <a href="https://www.youtube.com/@juandavid_dev" target="_blank" class="navbar__logo-text subtitle">JuanDavid_Dev</a>
           </div>
           <ul class="navbar__items">
             <li class="navbar__item">
-              <a class="navbar__link link" href="#home">home</a>
+              <a class="navbar__link link" href="#home">Home</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#about">about</a>
+              <a class="navbar__link link" href="#about">Experience</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#projects">projects</a>
+              <a class="navbar__link link" href="#projects">Projects</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#contact">contact</a>
+              <a class="navbar__link link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -65,9 +65,9 @@
             <div class="home__img" alt="Photography Juan Ortiz"></div>
             <h1 class="home__title title">Hi! I'm Juan David Ortiz</h1>
             <p class="home__text subtitle">
-                Front-end developer specialized in capturing authentic moments and genuine emotions through visual interfaces. Looking to represent the uniqueness of each individual, creating experiences that connect us on a personal and collective level
+                Front-end developer specialized in capturing authentic moments and genuine emotions through visual interfaces. Looking to represent the uniqueness of each individual, creating experiences that connect us on a personal and collective level.
             </p>
-            <a class="button button--primary button--nav" href="#projects">projects</a>
+            <a class="button button--primary button--nav" href="#projects">Projects</a>
           </div>
 
         </section>
@@ -87,7 +87,7 @@
                     <p class="about__text text">In the <span class="text--bolder">Projects section</span>, you will find concrete examples of my work, where you can see how I have applied my skills to design attractive and functional interfaces.</p>
                     <p class="about__text text">I also enjoy <span class="text--bolder">sharing my knowledge and experience</span> with the web development community. Through my <span class="text--bolder">YouTube</span> channel and my LinkedIn profile, I publish valuable and useful content related to web development and programming. I invite you to join and follow me to stay up to date with the latest trends and tips in this exciting field.</p>
                     <p class="about__text text">I am always open to new <span class="text--bolder">job</span> opportunities where I can contribute, learn and grow. If you have an opportunity that fits my skills and experience, feel free to <span class="text--bolder">contact me</span>. I will be happy to explore how I can add value to your project.</p>
-                    <a href="#contact" class="button button--primary button--nav">contact</a>
+                    <a href="#contact" class="button button--primary button--nav">Contact</a>
                 </div>
                 <div class="about__right">       
                     <h2 class="about__subtitle subtitle">My Skills</h2>             
@@ -103,35 +103,18 @@
                         <a class="about__item button button--disable">Gatsby</a> 
                         <a class="about__item button button--disable">APIs</a>
                         <a class="about__item button button--disable">WordPress</a> 
+                        <a class="about__item button button--disable">Atomic Design</a>
                         <a class="about__item button button--disable">Microsoft Power Platform</a>                     
                         <a class="about__item button button--disable">Git</a>
                         <a class="about__item button button--disable">GitHub</a>                        
-                        <a class="about__item button button--disable">BEM</a>
-                        <a class="about__item button button--disable">Atomic Design</a>
+                        <a class="about__item button button--disable">BEM</a>                        
                         <a class="about__item button button--disable">SCRUM</a>
                         <a class="about__item button button--disable">Agilismo</a>
                     </div>
                 </div>
             </div>
-            <div class="experience">                
-                <div class="experience__item">
-                    <h3 class="experience__title subtitle">Educational Training</h3>
-                    <ul>
-                        <li class="text">Feb 2021 - Feb 2023</li>
-                        <li class="text">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</li>
-                        <li><span class="text text--bolder">Servicio Nacional de Aprendizaje (SENA)</span></li>   
-                        <br> 
-                        <li class="text">Jul 2019 - Dic 2020</li>
-                        <li class="text">Técnico en Desarrollo de Software</li>
-                        <li><span class="text text--bolder">Cesde Institución Educativa</span></li>   
-                        <br>
-                        <li class="text">Jul 2016 - Jul 2018</li>
-                        <li class="text">Técnico en Diseño Gráfico Digital</li>
-                        <li><span class="text text--bolder">Cesde Institución Educativa</span></li>                      
-                    </ul> 
-                </div>
-                <hr>
-                <div class="experience__item">
+            <div class="experience">  
+                  <div class="experience__item">
                     <h3 class="experience__title subtitle">Work Experience</h3>
                     <ul>
                         <li class="text">Software Developer</li>
@@ -139,29 +122,46 @@
                         <li><span class="text text--bolder"><a href="https://www.comfama.com/" target="_blank">Comfama</a></span></li>    
                         <br>
                         <li class="text">Software Development Analyst</li>
-                        <li class="text">Jul 2022 - Nov 2022</li>
+                        <li class="text">Jul 2022 - Dic 2022</li>
                         <li><span class="text text--bolder"><a href="https://www.wolkvox.com/" target="_blank">Wolkvox</a></span></li>   
                         <br>
                         <li class="text">Software Developer</li>
-                        <li class="text">Mar 2022 - Jul 2022</li>
+                        <li class="text">Feb 2022 - Jul 2022</li>
                         <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>                      
                     </ul>                    
                 </div>
-                <hr>
+                <hr>              
+                <div class="experience__item">
+                    <h3 class="experience__title subtitle">Educational Training</h3>
+                    <ul>
+                        <li class="text">Feb 2021 - Feb 2023</li>
+                        <li class="text">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</li>
+                        <li><span class="text text--bolder"><a href="https://ejecuciondelaformacion.sena.edu.co/comunidad-aprendices" target="_blank">Servicio Nacional de Aprendizaje (SENA)</a></span></li>   
+                        <br> 
+                        <li class="text">Jul 2019 - Dic 2020</li>
+                        <li class="text">Técnico en Desarrollo de Software</li>
+                        <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>   
+                        <br>
+                        <li class="text">Jul 2016 - Jul 2018</li>
+                        <li class="text">Técnico en Diseño Gráfico Digital</li>
+                        <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>                      
+                    </ul> 
+                </div>
+                <hr>                
                 <div class="experience__item">
                     <h3 class="experience__title subtitle">Complementary Training</h3>
                     <ul>
                         <li class="text">May 2023 - Oct 2023</li>
                         <li class="text">Diseño de Experiencia del Usuario (UX) </li>
-                        <li><span class="text text--bolder">Google | Coursera</span></li>    
+                        <li><span class="text text--bolder"><a href="https://colnodo.org/es/crececongoogle/inscripcion" target="_blank">Google | Coursera</a></span></li>    
                         <br>
                         <li class="text">Abr 2023 - Sep 2023</li>
                         <li class="text">React Front-End Software Development</li>
-                        <li><span class="text text--bolder">Oracle Next Education Program | Alura</span></li>  
+                        <li><span class="text text--bolder"><a href="https://www.oracle.com/co/education/oracle-next-education/" target="_blank">Oracle Next Education Program | Alura</a></span></li>  
                         <br> 
                         <li class="text">Nov 2021 - Dic 2021</li>
                         <li class="text">Desarrollo web: HTML5, CSS3, Javascript</li>
-                        <li><span class="text text--bolder">Fundación Telefónica </span></li>                      
+                        <li><span class="text text--bolder"><a href="https://www.fundaciontelefonica.co/empleabilidad/cursos-conecta-empleo/" target="_blank">Fundación Telefónica</a></span></li>                      
                     </ul> 
                 </div>
             </div>
@@ -173,7 +173,7 @@
         <section class="projects">
 
             <div class="projects__intro">
-                <h2 class="projects__title title">projects</h2>
+                <h2 class="projects__title title">Projects</h2>
                 <p class="projects__text subtitle">Here you will find a selection of my personal projects, in which I have put all my effort and creativity. Through them, you will be able to explore my style and approach to software development</p>
             </div>
             <div class="projects__content">
@@ -183,7 +183,7 @@
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Firefox Monitor</h2>
                         <p class="about__text text">In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience on different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/firefox-monitor/" target="_blank" class="button button--primary">view</a>
+                        <a href="https://jdocdev.github.io/firefox-monitor/" target="_blank" class="button button--primary">View</a>
                     </div>
                 </div>
 
@@ -192,7 +192,7 @@
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Panaderia BEM</h2>
                         <p class="about__text text">In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/web-responsive-panaderiaBEM/" target="_blank" class="button button--primary">view</a>
+                        <a href="https://jdocdev.github.io/web-responsive-panaderiaBEM/" target="_blank" class="button button--primary">View</a>
                     </div>
                 </div>  
                 
@@ -201,7 +201,7 @@
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Christmas Store</h2>
                         <p class="about__text text">In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/WebNavidenaResponsive/" target="_blank" class="button button--primary">view</a>
+                        <a href="https://jdocdev.github.io/WebNavidenaResponsive/" target="_blank" class="button button--primary">View</a>
                     </div>
                 </div>
 
@@ -210,7 +210,7 @@
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Text Encoder</h2>
                         <p class="about__text text">In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/encriptador-de-texto-challenges/" target="_blank" class="button button--primary">view</a>
+                        <a href="https://jdocdev.github.io/encriptador-de-texto-challenges/" target="_blank" class="button button--primary">View</a>
                     </div>
                 </div>
                 
@@ -219,7 +219,7 @@
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Book House</h2>
                         <p class="about__text text">In this project, I created a responsive BookHouse website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptive user experience on different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/web-responsive-bookhouse/" target="_blank" class="button button--primary">view</a>
+                        <a href="https://jdocdev.github.io/web-responsive-bookhouse/" target="_blank" class="button button--primary">View</a>
                     </div>
                 </div>                
 
@@ -232,7 +232,7 @@
         <section class="contact">
 
             <div class="contact__intro">
-                <h2 class="contact__title title">contact</h2>
+                <h2 class="contact__title title">Contact</h2>
                 <p class="contact__text subtitle">Do not hesitate to contact me through the form below. I will get back to you as soon as possible</p>
             </div>
             <div class="contact__form">

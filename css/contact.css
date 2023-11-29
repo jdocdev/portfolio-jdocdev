@@ -35,6 +35,17 @@
 
 .form input {
   width: 500px;
+  color: var(--black);
+  font-weight: 500;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.form textarea {
+  color: var(--black);
+  font-weight: 500;
+  padding: 0.5rem;
+  outline: none;
 }
 
 .form__button {

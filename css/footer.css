@@ -2,7 +2,7 @@
 
 .footer {
     height: 5vh;
-    background-color: var(--maroon);
+    background-color: var(--black-dark);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,4 +10,11 @@
 
 .footer__text {
     color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__text:hover {
+    color: var(--green-medium);
+    transition: color 0.3s ease-in-out;
 }

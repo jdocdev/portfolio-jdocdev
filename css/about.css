@@ -60,7 +60,7 @@
 }
 
 .about__item {
-  margin: 0.5rem;
+  margin: 0.2rem;
 }
 
 .experience {
@@ -80,11 +80,13 @@
 
 .experience__item ul li span a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
+  transition: color 0.3s ease-in-out;
 }
 
 .experience__item ul li span a:hover {
-  color: var(--maroon);
+  color: var(--pink-medium);
+  transition: color 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 1366px) {
@@ -96,9 +98,6 @@
     margin-bottom: 0.5rem;
   }
 
-  .about__items > * {
-    margin: 0.5rem;
-  }
 }
 
 @media screen and (max-width: 720px) {

@@ -1,13 +1,12 @@
 @import url(style.css);
 
 .navbar__menu {
-  background-color: var(--white);
+  background-color: var(--black-transparent);
   height: 8vh;
   display: flex;
   justify-content: space-around;
   position: fixed;
   width: 100vw;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navbar__items,
@@ -15,6 +14,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.navbar__logo-text {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar__logo-text:hover {
+  color: var(--green-medium);
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar__item {
@@ -28,11 +36,11 @@
 .navbar__link::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
   width: 0;
   height: 2px;
-  background-color: black;
+  background-color: var(--green-medium);
   transition: width 0.3s ease;
 }
 
