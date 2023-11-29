@@ -21,24 +21,31 @@
 .about__content {
   margin-top: 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: start;
 }
 
 .about__left {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  
+  margin-bottom: 2rem;
 }
 
 .about__left > * {
   margin-bottom: 1rem;
 }
 
+a.button--primary:nth-child(6) {
+  margin-top: 1rem;
+}
+
 .about__right {
-  width: 45%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -66,7 +73,7 @@
 .experience {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .experience__item {
@@ -126,7 +133,6 @@ body.light .experience__item ul li span a:hover {
 
   .about__left {
     width: 100%;
-    margin-bottom: 2rem;
   }
 
   .about__right {

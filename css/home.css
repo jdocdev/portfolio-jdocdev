@@ -12,7 +12,7 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: solid 9px var(--black-dark);
+  border: solid 15px var(--black-dark);
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/photos/JuanTres.jpg);
   background-size: cover;
   background-position: center;
