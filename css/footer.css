@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .footer__text {
@@ -18,3 +19,14 @@
     color: var(--green-medium);
     transition: color 0.3s ease-in-out;
 }
+
+/* Dark <> Light */
+
+body.light .footer {
+    background-color: var(--white);
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease-in-out;
+}
+
+  
+/* Dark <> Light */

@@ -89,6 +89,20 @@
   transition: color 0.3s ease-in-out;
 }
 
+/* Dark <> Light */
+
+body.light .experience__item ul li span a {
+  color: var(--dark);
+  transition: color 0.3s ease-in-out;
+}
+
+body.light .experience__item ul li span a:hover {
+  color: var(--purple-medium);
+  transition: color 0.3s ease-in-out;
+}
+
+/* Dark <> Light */
+
 @media screen and (max-width: 1366px) {
   .about__left > * {
     margin-bottom: 0.5rem;

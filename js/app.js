@@ -25,4 +25,9 @@ window.onload = function() {
   form.reset();
 };
 
+// Cambio de tema Dark <> Light
+const checkbox = document.getElementById('checkbox');
 
+checkbox.addEventListener('change', () => {
+        document.body.classList.toggle('light');
+});
