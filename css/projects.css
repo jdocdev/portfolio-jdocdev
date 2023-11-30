@@ -20,15 +20,15 @@
 .projects__content {
   margin-top: 4rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
   align-items: center;
 }
 
 .project {
   display: flex;
-  justify-content: center;
-  max-width: 850px;
+  flex-basis: 49%;
 }
 
 .project > * {
@@ -84,6 +84,10 @@
 
   .project__right > * {
     margin-bottom: 0.5rem;
+  }
+
+  .project {
+    flex-basis: 100%;
   }
 }
 

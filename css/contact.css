@@ -57,3 +57,9 @@
     width: 350px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .form input, .form textarea {
+    width: 250px;
+  }
+}
