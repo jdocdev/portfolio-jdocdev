@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,16 +40,16 @@
           </div>
           <ul class="navbar__items">
             <li class="navbar__item">
-              <a class="navbar__link link" href="#home">Home</a>
+              <a class="navbar__link link" href="#home" data-traduccion="home">Home</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#about">Experience</a>
+              <a class="navbar__link link" href="#about" data-traduccion="experience">Experience</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#projects">Projects</a>
+              <a class="navbar__link link" href="#projects" data-traduccion="projects">Projects</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link link" href="#contact">Contact</a>
+              <a class="navbar__link link" href="#contact" data-traduccion="contact">Contact</a>
             </li>
             <li class="navbar__item toggle-theme">
               <input type="checkbox" class="checkbox" id="checkbox">
@@ -59,6 +59,10 @@
                   <i class="bi bi-circle-fill"></i>
               </label>
           </li>
+            <li class="navbar__item" id="idioma-buttons">
+              <button onclick="cambiarIdioma('es')">Es</button>
+              <button onclick="cambiarIdioma('en')">En</button>
+            </li>
           </ul>
         </nav>
 
@@ -71,11 +75,11 @@
 
           <div class="home__info">
             <div class="home__img" alt="Photography Juan Ortiz"></div>
-            <h1 class="home__title title">Hi! I'm Juan David Ortiz</h1>
-            <p class="home__text subtitle">
+            <h1 class="home__title title" data-traduccion="frase1">Hi! I'm Juan David Ortiz</h1>
+            <p class="home__text subtitle" data-traduccion="frase2">
                 Front-end developer specialized in capturing authentic moments and genuine emotions through visual interfaces. Looking to represent the uniqueness of each individual, creating experiences that connect us on a personal and collective level.
             </p>
-            <a class="button button--primary button--nav" href="#projects">Projects</a>
+            <a class="button button--primary button--nav" href="#projects" data-traduccion="projects">Projects</a>
           </div>
 
         </section>
@@ -85,72 +89,72 @@
         <section class="about">
 
             <div class="about__intro">
-                <h2 class="about__title title">About Me</h2>
-                <p class="about__text subtitle">Here you will find detailed information about me, my experience, and the skills I have developed, especially in the field of programming and technology</p>
+                <h2 class="about__title title" data-traduccion="frase3">About Me</h2>
+                <p class="about__text subtitle" data-traduccion="frase4">Here you will find detailed information about me, my experience, and the skills I have developed.</p>
             </div>
             <div class="experience">  
               <div class="experience__item">
-                <h3 class="experience__title subtitle">Work Experience</h3>
+                <h3 class="experience__title subtitle" data-traduccion="frase5">Work Experience</h3>
                 <ul>
-                    <li class="text">Software Developer</li>
-                    <li class="text">Feb 2023 - Jul 2023</li>
+                    <li class="text" data-traduccion="frase6">Software Developer</li>
+                    <li class="text" data-traduccion="frase7">Feb 2023 - Jul 2023</li>
                     <li><span class="text text--bolder"><a href="https://www.comfama.com/" target="_blank">Comfama</a></span></li>    
                     <br>
-                    <li class="text">Software Development Analyst</li>
-                    <li class="text">Jul 2022 - Dic 2022</li>
+                    <li class="text" data-traduccion="frase8">Software Development Analyst</li>
+                    <li class="text" data-traduccion="frase9">Jul 2022 - Dic 2022</li>
                     <li><span class="text text--bolder"><a href="https://www.wolkvox.com/" target="_blank">Wolkvox</a></span></li>   
                     <br>
-                    <li class="text">Software Developer</li>
-                    <li class="text">Feb 2022 - Jul 2022</li>
+                    <li class="text" data-traduccion="frase6">Software Developer</li>
+                    <li class="text" data-traduccion="frase10">Feb 2022 - Jul 2022</li>
                     <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>                      
                 </ul>                    
             </div>
             <hr>              
             <div class="experience__item">
-                <h3 class="experience__title subtitle">Educational Training</h3>
+                <h3 class="experience__title subtitle" data-traduccion="frase11">Educational Training</h3>
                 <ul>
-                    <li class="text">Feb 2021 - Feb 2023</li>
-                    <li class="text">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</li>
+                    <li class="text" data-traduccion="frase12">Feb 2021 - Feb 2023</li>
+                    <li class="text" data-traduccion="frase13">Tecnólogo en Análisis y Desarrollo de Sistemas de Información</li>
                     <li><span class="text text--bolder"><a href="https://ejecuciondelaformacion.sena.edu.co/comunidad-aprendices" target="_blank">Servicio Nacional de Aprendizaje (SENA)</a></span></li>   
                     <br> 
-                    <li class="text">Jul 2019 - Dic 2020</li>
-                    <li class="text">Técnico en Desarrollo de Software</li>
+                    <li class="text" data-traduccion="frase14">Jul 2019 - Dic 2020</li>
+                    <li class="text" data-traduccion="frase15">Técnico en Desarrollo de Software</li>
                     <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>   
                     <br>
-                    <li class="text">Jul 2016 - Jul 2018</li>
-                    <li class="text">Técnico en Diseño Gráfico Digital</li>
+                    <li class="text" data-traduccion="frase16">Jul 2016 - Jul 2018</li>
+                    <li class="text" data-traduccion="frase17">Técnico en Diseño Gráfico Digital</li>
                     <li><span class="text text--bolder"><a href="https://www.cesde.edu.co/" target="_blank">Cesde Institución Educativa</a></span></li>                      
                 </ul> 
             </div>
             <hr>                
             <div class="experience__item">
-                <h3 class="experience__title subtitle">Complementary Training</h3>
+                <h3 class="experience__title subtitle" data-traduccion="frase18">Complementary Training</h3>
                 <ul>
-                    <li class="text">May 2023 - Oct 2023</li>
-                    <li class="text">Diseño de Experiencia del Usuario (UX) </li>
+                    <li class="text" data-traduccion="frase19">May 2023 - Oct 2023</li>
+                    <li class="text" data-traduccion="frase20">Diseño de Experiencia del Usuario (UX)</li>
                     <li><span class="text text--bolder"><a href="https://colnodo.org/es/crececongoogle/inscripcion" target="_blank">Google | Coursera</a></span></li>    
                     <br>
-                    <li class="text">Abr 2023 - Sep 2023</li>
-                    <li class="text">React Front-End Software Development</li>
+                    <li class="text" data-traduccion="frase21">Abr 2023 - Sep 2023</li>
+                    <li class="text" data-traduccion="frase22">Front-End Software Development</li>
                     <li><span class="text text--bolder"><a href="https://www.oracle.com/co/education/oracle-next-education/" target="_blank">Oracle Next Education Program | Alura</a></span></li>  
                     <br> 
-                    <li class="text">Nov 2021 - Dic 2021</li>
-                    <li class="text">Desarrollo web: HTML5, CSS3, Javascript</li>
+                    <li class="text" data-traduccion="frase23">Nov 2021 - Dic 2021</li>
+                    <li class="text" data-traduccion="frase24">Web development: HTML5, CSS3, Javascript</li>
                     <li><span class="text text--bolder"><a href="https://www.fundaciontelefonica.co/empleabilidad/cursos-conecta-empleo/" target="_blank">Fundación Telefónica</a></span></li>                      
                 </ul> 
             </div>
         </div>
             <div class="about__content">
                 <div class="about__left">
-                    <h2 class="about__subtitle subtitle">Hello!</h2>
-                    <p class="about__text text">I am a passionate <span class="text--bolder">front-end web developer</span> dedicated to creating exceptional user experiences for websites and applications. My main goal is to ensure the overall success of the product through a solid and high quality front-end.</p>
-                    <p class="about__text text">In the <span class="text--bolder">Projects section</span>, you will find concrete examples of my work, where you can see how I have applied my skills to design attractive and functional interfaces.</p>
-                    <p class="about__text text">I also enjoy <span class="text--bolder">sharing my knowledge and experience</span> with the web development community. Through my <span class="text--bolder">YouTube</span> channel and my LinkedIn profile, I publish valuable and useful content related to web development and programming. I invite you to join and follow me to stay up to date with the latest trends and tips in this exciting field.</p>
-                    <p class="about__text text">I am always open to new <span class="text--bolder">job</span> opportunities where I can contribute, learn and grow. If you have an opportunity that fits my skills and experience, feel free to <span class="text--bolder">contact me</span>. I will be happy to explore how I can add value to your project.</p>
-                    <a href="#contact" class="button button--primary button--nav ">Contact</a>
+                    <h2 class="about__subtitle subtitle" data-traduccion="hello!">Hello!</h2>
+                    <p class="about__text text" data-traduccion="frase25">I am a passionate <span class="text--bolder">front-end web developer</span> dedicated to creating exceptional user experiences for websites and applications. My main goal is to ensure the overall success of the product through a solid and high quality front-end.</p>
+                    <p class="about__text text" data-traduccion="frase26">In the <span class="text--bolder">Projects section</span>, you will find concrete examples of my work, where you can see how I have applied my skills to design attractive and functional interfaces.</p>
+                    <p class="about__text text" data-traduccion="frase27">I also enjoy <span class="text--bolder">sharing my knowledge and experience</span> with the web development community. Through my <span class="text--bolder">YouTube</span> channel and my LinkedIn profile, I publish valuable and useful content related to web development and programming.</p>
+                    <p class="about__text text" data-traduccion="frase28">I am always open to new <span class="text--bolder">job</span> opportunities where I can contribute, learn and grow. If you have an opportunity that fits my skills and experience, feel free to <span class="text--bolder">contact me</span>. I will be happy to explore how I can add value to your project.</p>
+                    <a href="#contact" class="button button--primary button--nav" data-traduccion="contact">Contact</a>
                 </div>
                 <div class="about__right">       
-                    <h2 class="about__subtitle subtitle">My Skills</h2>             
+                    <h2 class="about__subtitle subtitle" data-traduccion="frase29">My Skills</h2>             
                     <div class="about__items">
                         <a class="about__item button button--disable">HTML</a>
                         <a class="about__item button button--disable">CSS</a>
@@ -181,8 +185,8 @@
         <section class="projects">
 
             <div class="projects__intro">
-                <h2 class="projects__title title">Projects</h2>
-                <p class="projects__text subtitle">Here you will find a selection of my personal projects, in which I have put all my effort and creativity. Through them, you will be able to explore my style and approach to software development</p>
+                <h2 class="projects__title title" data-traduccion="projects">Projects</h2>
+                <p class="projects__text subtitle" data-traduccion="frase30">Here you will find a selection of my personal projects, in which I have put all my effort and creativity. Through them, you will be able to explore my style and approach to software development</p>
             </div>
             <div class="projects__content">
 
@@ -190,8 +194,8 @@
                     <div class="project__left project--firefox" alt="Project image"></div>
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Firefox Monitor</h2>
-                        <p class="about__text text">In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience on different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/firefox-monitor/" target="_blank" class="button button--primary">View</a>
+                        <p class="about__text text" data-traduccion="frase31">In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience on different devices and screen sizes.</p>
+                        <a href="https://jdocdev.github.io/firefox-monitor/" target="_blank" class="button button--primary" data-traduccion="view">View</a>
                     </div>
                 </div>
 
@@ -199,8 +203,8 @@
                     <div class="project__left project--panaderia-bem" alt="Project image"></div>
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Panaderia BEM</h2>
-                        <p class="about__text text">In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/web-responsive-panaderiaBEM/" target="_blank" class="button button--primary">View</a>
+                        <p class="about__text text" data-traduccion="frase32">In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
+                        <a href="https://jdocdev.github.io/web-responsive-panaderiaBEM/" target="_blank" class="button button--primary" data-traduccion="view">View</a>
                     </div>
                 </div>  
                 
@@ -208,8 +212,8 @@
                     <div class="project__left project--christmas-store" alt="Project image"></div>
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Christmas Store</h2>
-                        <p class="about__text text">In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/WebNavidenaResponsive/" target="_blank" class="button button--primary">View</a>
+                        <p class="about__text text" data-traduccion="frase33">In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
+                        <a href="https://jdocdev.github.io/WebNavidenaResponsive/" target="_blank" class="button button--primary" data-traduccion="view">View</a>
                     </div>
                 </div>
 
@@ -217,8 +221,8 @@
                     <div class="project__left project--text-encoder" alt="Project image"></div>
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Text Encoder</h2>
-                        <p class="about__text text">In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/encriptador-de-texto-challenges/" target="_blank" class="button button--primary">View</a>
+                        <p class="about__text text" data-traduccion="frase34">In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JavaScript. My main goal was to design a fluid and adaptable user experience for different devices and screen sizes.</p>
+                        <a href="https://jdocdev.github.io/encriptador-de-texto-challenges/" target="_blank" class="button button--primary" data-traduccion="view">View</a>
                     </div>
                 </div>
                 
@@ -226,8 +230,8 @@
                     <div class="project__left project--bookhouse" alt="Project image"></div>
                     <div class="project__right">       
                         <h2 class="about__subtitle subtitle">Book House</h2>
-                        <p class="about__text text">In this project, I created a responsive BookHouse website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptive user experience on different devices and screen sizes.</p>
-                        <a href="https://jdocdev.github.io/web-responsive-bookhouse/" target="_blank" class="button button--primary">View</a>
+                        <p class="about__text text" data-traduccion="frase35">In this project, I created a responsive BookHouse website using technologies such as HTML, CSS. My main goal was to design a fluid and adaptive user experience on different devices and screen sizes.</p>
+                        <a href="https://jdocdev.github.io/web-responsive-bookhouse/" target="_blank" class="button button--primary" data-traduccion="view">View</a>
                     </div>
                 </div>                
 
@@ -240,21 +244,21 @@
         <section class="contact">
 
             <div class="contact__intro">
-                <h2 class="contact__title title">Contact</h2>
-                <p class="contact__text subtitle">Do not hesitate to contact me through the form below. I will get back to you as soon as possible</p>
+                <h2 class="contact__title title" data-traduccion="contact">Contact</h2>
+                <p class="contact__text subtitle" data-traduccion="frase36">Do not hesitate to contact me through the form below. I will get back to you as soon as possible</p>
             </div>
             <div class="contact__form">
                 <form id="contact__form" class="form" action="https://formspree.io/f/xpzgalyz" method="POST">
-                    <label class="text text--bolder" for="name">Nombre:</label>
+                    <label class="text text--bolder" for="name" data-traduccion="name:">Name:</label>
                     <input class="text" type="text" id="name" name="name" required>
                   
-                    <label class="text text--bolder" for="email">Email:</label>
+                    <label class="text text--bolder" for="email" data-traduccion="email:">Email:</label>
                     <input class="text" type="email" id="email" name="email" required>
                   
-                    <label class="text text--bolder" for="message">Mensaje:</label>
+                    <label class="text text--bolder" for="message" data-traduccion="message:">message:</label>
                     <textarea class="text" id="message" name="message" required></textarea>
                   
-                    <button class="form__button button button--primary" type="submit">Enviar</button>
+                    <button class="form__button button button--primary" type="submit" data-traduccion="submit">Submit</button>
                 </form>    
             </div>
 
@@ -299,5 +303,6 @@
 
     <!-- My JS -->
     <script src="js/app.js"></script>
+    <script src="js/translate.js"></script>
   </body>
 </html>

@@ -30,6 +30,25 @@
   margin-left: 1rem;
 }
 
+/* Botones traducción */
+.navbar__item button {
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+  margin-left: -10px;
+}
+
+.navbar__item button:hover {
+  cursor: pointer;
+  color: var(--green-medium);
+  transition: color 0.3s ease-in-out;
+}
+/* Botones traducción */
+
 .navbar__link {
   position: relative;
 }
@@ -103,9 +122,19 @@ body.light .navbar__menu {
   transition: background-color 0.3s ease-in;
 }
 
+/* Botones traducción */
+body.light .navbar__item button {
+  color: var(--dark);
+}
+
+body.light .navbar__item button:hover {
+  color: var(--green-medium);
+}
+/* Botones traducción */
+
 /* Dark <> Light */
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
   .navbar__menu {
     justify-content: center;
   }
