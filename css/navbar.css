@@ -146,20 +146,18 @@ body.light .navbar__item button:hover {
   .navbar__item:nth-child(1) {
     margin-left: 0;
   }
-}
 
-@media screen and (max-width: 375px) {
   .navbar__item {
     margin-left: 0.6rem;
   }
 
   .navbar__link.link {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .navbar__item button {
     margin-left: -7px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .toggle-theme .label {    
@@ -180,3 +178,5 @@ body.light .navbar__item button:hover {
     transform: translateX(14px);
   }
 }
+
+
