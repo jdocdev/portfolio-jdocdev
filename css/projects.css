@@ -49,9 +49,9 @@
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/firefox--monitor.jpg);
 }
 
-.project--bookhouse {
+/* .project--bookhouse {
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/bookhouse.jpg);
-}
+} */
 
 .project--text-encoder {
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/text--encoder.jpg);
@@ -71,6 +71,10 @@
 
 .project--shopping-cart {
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/shopping--cart.png);
+}
+
+.project--veterinary-appointments {
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/veterinary--appointments.png);
 }
 
 .project__right {

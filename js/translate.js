@@ -10,6 +10,7 @@ const traducciones = {
     "email:":"Email:",
     "message:":"Message:",
     "submit":"Submit",
+    code:"Code",
 
     frase1:"Hi! I'm Juan David Ortiz",
     frase2:"Front-end developer specialized in capturing authentic moments and genuine emotions through visual interfaces. Looking to represent the uniqueness of each individual, creating experiences that connect us on a personal and collective level.",    
@@ -49,6 +50,7 @@ const traducciones = {
     projectTextEncoder:"In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JS.",    
     projectBookhouse:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
     projectShoppingCart:"In this project, I created a responsive shopping cart using technologies such as HTML, CSS and JS.",
+    projectVeterinaryAppointments:"In this project, I created an appointment book for a veterinarian using React.js.",
     
     frase36:"Do not hesitate to contact me through the form below. I will get back to you as soon as possible",
   },
@@ -63,6 +65,7 @@ const traducciones = {
     "email:":"Correo electrónico:",
     "message:":"Mensaje:",
     submit:"Enviar",
+    code:"código",
   
     frase1:"¡Hola! Soy Juan David Ortiz",
     frase2:"Desarrollador front-end especializado en capturar momentos auténticos y emociones genuinas a través de interfaces visuales. Busco representar la singularidad de cada individuo, creando experiencias que nos conecten a nivel personal y colectivo.",
@@ -101,7 +104,8 @@ const traducciones = {
     projectChristmasStore:"En este proyecto, creé un sitio web responsive para Christmas Store utilizando tecnologías como HTML, CSS y JS.",
     projectTextEncoder:"En este proyecto, creé un encriptador de texto responsive utilizando tecnologías como HTML, CSS y JS.",    
     projectBookhouse:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.", 
-    projectShoppingCart:"En este proyecto, he creado un carrito de compras responsive utilizando tecnologías como HTML, CSS y JS.",
+    projectShoppingCart:"En este proyecto, creé un carrito de compras responsive utilizando tecnologías como HTML, CSS y JS.",
+    projectVeterinaryAppointments:"En este proyecto, creé una agenda de citas para una veterinaria usando React.js",
 
     
     frase36:"No dudes en contactarme a través del formulario a continuación. Me pondré en contacto contigo tan pronto como sea posible.",
