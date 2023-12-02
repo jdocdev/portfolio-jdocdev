@@ -41,11 +41,15 @@ const traducciones = {
     frase28:"I am always open to new job opportunities where I can contribute, learn and grow. If you have an opportunity that fits my skills and experience, feel free to contact me. I will be happy to explore how I can add value to your project.",
     frase29:"My Skills",
     frase30:"Here you will find a selection of my personal projects, in which I have put all my effort and creativity. Through them, you will be able to explore my style and approach to software development",
-    frase31:"In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JavaScript.",
-    frase32:"In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS.",
-    frase33:"In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JavaScript.",
-    frase34:"In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JavaScript.",
-    frase35:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
+
+    projectFirefox:"In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JS.",
+    projectPanaderiaBem:"In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS.",
+    projectValidationForm:"In this project, I created a form with submission conditions and real-time visual validations using technologies such as HTML, CSS and JS.",
+    projectChristmasStore:"In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JS.",
+    projectTextEncoder:"In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JS.",    
+    projectBookhouse:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
+    projectShoppingCart:"In this project, I created a responsive shopping cart using technologies such as HTML, CSS and JS.",
+    
     frase36:"Do not hesitate to contact me through the form below. I will get back to you as soon as possible",
   },
   es: {
@@ -90,11 +94,16 @@ const traducciones = {
     frase28:"Siempre estoy abierto a nuevas oportunidades laborales donde pueda contribuir, aprender y crecer. Si tienes una oportunidad que se ajusta a mis habilidades y experiencia, no dudes en contactarme. Estaré encantado de explorar cómo puedo agregar valor a tu proyecto.",
     frase29: "Mis habilidades",
     frase30:"Aquí encontrarás una selección de mis proyectos personales, en los cuales he puesto todo mi esfuerzo y creatividad. A través de ellos, podrás explorar mi estilo y enfoque en el desarrollo de software.",
-    frase31:"En este proyecto, recree un sitio web responsive Firefox Monitor utilizando tecnologías como HTML, CSS y JavaScript.",
-    frase32:"En este proyecto, creé un sitio web responsive para Panadería BEM utilizando tecnologías como HTML, CSS.",
-    frase33:"En este proyecto, creé un sitio web responsive para Christmas Store utilizando tecnologías como HTML, CSS y JavaScript.",
-    frase34:"En este proyecto, creé un encriptador de texto responsive utilizando tecnologías como HTML, CSS y JavaScript.",
-    frase35:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.",
+    
+    projectFirefox:"En este proyecto, recree un sitio web responsive Firefox Monitor utilizando tecnologías como HTML, CSS y JS.",
+    projectPanaderiaBem:"En este proyecto, creé un sitio web responsive para Panadería BEM utilizando tecnologías como HTML, CSS.",
+    projectValidationForm:"En este proyecto, cree un formulario con condiciones de envío y validaciones visuales en tiempo real utilizando tecnologías como HTML, CSS y JS.",
+    projectChristmasStore:"En este proyecto, creé un sitio web responsive para Christmas Store utilizando tecnologías como HTML, CSS y JS.",
+    projectTextEncoder:"En este proyecto, creé un encriptador de texto responsive utilizando tecnologías como HTML, CSS y JS.",    
+    projectBookhouse:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.", 
+    projectShoppingCart:"En este proyecto, he creado un carrito de compras responsive utilizando tecnologías como HTML, CSS y JS.",
+
+    
     frase36:"No dudes en contactarme a través del formulario a continuación. Me pondré en contacto contigo tan pronto como sea posible.",
   },  
 };
