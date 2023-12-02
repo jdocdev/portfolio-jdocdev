@@ -44,7 +44,7 @@ const traducciones = {
 
     projectFirefox:"In this project, I created a responsive Firefox Monitor website using technologies such as HTML, CSS and JS.",
     projectPanaderiaBem:"In this project, I created a responsive Panaderia BEM website using technologies such as HTML, CSS.",
-    projectValidationForm:"In this project, I created a form with submission conditions and real-time visual validations using technologies such as HTML, CSS and JS.",
+    projectValidationForm:"In this project, I created a form with submission conditions and visual validations using technologies such as HTML, CSS and JS.",
     projectChristmasStore:"In this project, I created a responsive website for Christmas Store using technologies such as HTML, CSS and JS.",
     projectTextEncoder:"In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JS.",    
     projectBookhouse:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
@@ -97,7 +97,7 @@ const traducciones = {
     
     projectFirefox:"En este proyecto, recree un sitio web responsive Firefox Monitor utilizando tecnologías como HTML, CSS y JS.",
     projectPanaderiaBem:"En este proyecto, creé un sitio web responsive para Panadería BEM utilizando tecnologías como HTML, CSS.",
-    projectValidationForm:"En este proyecto, cree un formulario con condiciones de envío y validaciones visuales en tiempo real utilizando tecnologías como HTML, CSS y JS.",
+    projectValidationForm:"En este proyecto, cree un formulario con condiciones de envío y validaciones visuales utilizando tecnologías como HTML, CSS y JS.",
     projectChristmasStore:"En este proyecto, creé un sitio web responsive para Christmas Store utilizando tecnologías como HTML, CSS y JS.",
     projectTextEncoder:"En este proyecto, creé un encriptador de texto responsive utilizando tecnologías como HTML, CSS y JS.",    
     projectBookhouse:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.", 
