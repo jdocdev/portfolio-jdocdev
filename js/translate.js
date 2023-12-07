@@ -51,6 +51,7 @@ const traducciones = {
     projectBookhouse:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
     projectShoppingCart:"In this project, I created a responsive shopping cart using technologies such as HTML, CSS and JS.",
     projectVeterinaryAppointments:"In this project, I created an appointment book for a veterinarian using React.js.",
+    projectBudgetControl:"In this project, I created an app to control income and expenses using React.js.",
     
     frase36:"Do not hesitate to contact me through the form below. I will get back to you as soon as possible",
   },
@@ -106,6 +107,7 @@ const traducciones = {
     projectBookhouse:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.", 
     projectShoppingCart:"En este proyecto, creé un carrito de compras responsive utilizando tecnologías como HTML, CSS y JS.",
     projectVeterinaryAppointments:"En este proyecto, creé una agenda de citas para una veterinaria usando React.js",
+    projectBudgetControl:"En este proyecto, creé app una para el control de ingresos y gastos usando React.js.",
 
     
     frase36:"No dudes en contactarme a través del formulario a continuación. Me pondré en contacto contigo tan pronto como sea posible.",

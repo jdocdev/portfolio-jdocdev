@@ -77,6 +77,10 @@
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/veterinary--appointments.png);
 }
 
+.project--budget-control {
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/budget--control.png);
+}
+
 .project__right {
   max-width: 50%;
   display: flex;
