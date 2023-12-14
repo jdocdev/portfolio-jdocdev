@@ -50,8 +50,9 @@ const traducciones = {
     projectTextEncoder:"In this project, I created a responsive text encryptor using technologies such as HTML, CSS and JS.",    
     projectBookhouse:"In this project, I created a responsive BookHouse website using technologies such as HTML, CSS.",
     projectShoppingCart:"In this project, I created a responsive shopping cart using technologies such as HTML, CSS and JS.",
-    projectVeterinaryAppointments:"In this project, I created an appointment book for a veterinarian using React.js.",
-    projectBudgetControl:"In this project, I created an app to control income and expenses using React.js.",
+    projectVeterinaryAppointments:"In this project, I created an appointment web app for a veterinarian using React.js and Tailwind CSS.",
+    projectBudgetControl:"In this project, I created a web app for income and expenses control using React.js and CSS.",
+    projectCryptoQuote:"In this project, I created an application to quote cryptocurrencies using React.js and styled components.",
     
     frase36:"Do not hesitate to contact me through the form below. I will get back to you as soon as possible",
   },
@@ -106,8 +107,9 @@ const traducciones = {
     projectTextEncoder:"En este proyecto, creé un encriptador de texto responsive utilizando tecnologías como HTML, CSS y JS.",    
     projectBookhouse:"En este proyecto, creé un sitio web responsive para BookHouse utilizando tecnologías como HTML, CSS.", 
     projectShoppingCart:"En este proyecto, creé un carrito de compras responsive utilizando tecnologías como HTML, CSS y JS.",
-    projectVeterinaryAppointments:"En este proyecto, creé una agenda de citas para una veterinaria usando React.js",
-    projectBudgetControl:"En este proyecto, creé app una para el control de ingresos y gastos usando React.js.",
+    projectVeterinaryAppointments:"En este proyecto, creé una web app para de citas para una veterinaria usando React.js y Tailwind CSS.",
+    projectBudgetControl:"En este proyecto, creé una web app una para el control de ingresos y gastos usando React.js y CSS.",
+    projectCryptoQuote:"En este proyecto, creé una web app para cotizar criptomonedas usando React.js y styled components.",
 
     
     frase36:"No dudes en contactarme a través del formulario a continuación. Me pondré en contacto contigo tan pronto como sea posible.",

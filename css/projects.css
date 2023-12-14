@@ -45,6 +45,10 @@
   background-position: center;
 }
 
+.project--cotizador-cripto {
+  background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/cotizador--cripto.jpg);
+}
+
 .project--firefox {
   background-image: url(https://jdocdev.github.io/portfolio-jdocdev/src/img/firefox--monitor.jpg);
 }
