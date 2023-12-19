@@ -53,6 +53,7 @@ const traducciones = {
     projectVeterinaryAppointments:"In this project, I created an appointment web app for a veterinarian using React.js and Tailwind CSS.",
     projectBudgetControl:"In this project, I created a web app for income and expenses control using React.js and CSS.",
     projectCryptoQuote:"In this project, I created an application to quote cryptocurrencies using React.js and styled components.",
+    projectMoviesProduct:"In this project, I created a product website with cart and other features using React.js and SCSS.",
     
     frase36:"Do not hesitate to contact me through the form below. I will get back to you as soon as possible",
   },
@@ -110,6 +111,7 @@ const traducciones = {
     projectVeterinaryAppointments:"En este proyecto, creé una web app para de citas para una veterinaria usando React.js y Tailwind CSS.",
     projectBudgetControl:"En este proyecto, creé una web app una para el control de ingresos y gastos usando React.js y CSS.",
     projectCryptoQuote:"En este proyecto, creé una web app para cotizar criptomonedas usando React.js y styled components.",
+    projectMoviesProduct:"En este proyecto, creé una web de producto con carrito y otras características usando React.js y SCSS.",
 
     
     frase36:"No dudes en contactarme a través del formulario a continuación. Me pondré en contacto contigo tan pronto como sea posible.",
